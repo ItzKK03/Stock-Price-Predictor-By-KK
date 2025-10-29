@@ -4,8 +4,6 @@ A comprehensive, AI-powered web application that forecasts stock closing prices 
 
 The entire application is built with a clean, interactive user interface using Streamlit.
 
-After you upload your project, replace the link above with a screenshot of your running application!
-
 🚀 Core Features
 
 LSTM-Based Time-Series Forecasting: Utilizes a deep learning LSTM model to analyze historical price patterns and trends over the last 60 days.
