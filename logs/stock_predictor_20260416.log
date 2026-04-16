@@ -1,0 +1,183 @@
+2026-04-16 04:00:57 | [32mINFO[0m | stock_predictor:112 | get_logger | Logging to file: d:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 04:00:57 | [32mINFO[0m | src.data_collection:112 | get_logger | Logging to file: d:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 04:00:58 | [32mINFO[0m | src.feature_engineering:112 | get_logger | Logging to file: d:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 04:01:13 | [32mINFO[0m | src.sentiment_analysis:112 | get_logger | Logging to file: d:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 04:01:13 | [32mINFO[0m | src.model_utils:112 | get_logger | Logging to file: d:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 04:01:13 | [32mINFO[0m | src.data_preprocessing:112 | get_logger | Logging to file: d:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 04:01:13 | [32mINFO[0m | src.evaluation:112 | get_logger | Logging to file: d:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 04:01:13 | [32mINFO[0m | __main__:112 | get_logger | Logging to file: d:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 04:01:13 | [32mINFO[0m | __main__:57 | train | Starting training process for AAPL...
+2026-04-16 04:01:13 | [32mINFO[0m | __main__:60 | train | Initializing sentiment model...
+2026-04-16 04:01:13 | [32mINFO[0m | src.sentiment_analysis:40 | initialize_sentiment_model | Initializing sentiment model: ProsusAI/finbert...
+2026-04-16 04:01:16 | [32mINFO[0m | src.sentiment_analysis:43 | initialize_sentiment_model | Sentiment model initialized successfully.
+2026-04-16 04:01:16 | [32mINFO[0m | __main__:64 | train | Fetching data for AAPL from 2015-01-01 to 2025-12-31...
+2026-04-16 04:01:16 | [32mINFO[0m | src.data_collection:108 | get_stock_data | Fetching data for AAPL from 2015-01-01 to 2025-12-31...
+2026-04-16 04:01:23 | [32mINFO[0m | src.data_collection:134 | get_stock_data | Fetched 2765 rows of data for AAPL
+2026-04-16 04:01:23 | [32mINFO[0m | __main__:68 | train | Adding technical indicators...
+2026-04-16 04:01:35 | [32mINFO[0m | __main__:72 | train | Fetching and analyzing news sentiment...
+2026-04-16 04:01:35 | [33mWARNING[0m | src.sentiment_analysis:141 | get_daily_sentiment | News found, but no 'title' column
+2026-04-16 04:01:35 | [32mINFO[0m | __main__:76 | train | Combining stock data and sentiment...
+2026-04-16 04:01:35 | [33mWARNING[0m | src.data_preprocessing:68 | merge_stock_sentiment | No sentiment data provided, proceeding with stock data only
+2026-04-16 04:01:35 | [32mINFO[0m | __main__:84 | train | Preparing features for training...
+2026-04-16 04:01:35 | [32mINFO[0m | __main__:88 | train | Scaling data...
+2026-04-16 11:16:35 | [32mINFO[0m | stock_predictor:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:16:35 | [32mINFO[0m | src.data_collection:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:16:36 | [32mINFO[0m | src.feature_engineering:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:16:54 | [32mINFO[0m | src.sentiment_analysis:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:16:54 | [32mINFO[0m | src.model_utils:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:16:54 | [32mINFO[0m | src.data_preprocessing:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:16:54 | [32mINFO[0m | src.evaluation:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:16:54 | [32mINFO[0m | __main__:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:16:54 | [32mINFO[0m | __main__:57 | train | Starting training process for AAPL...
+2026-04-16 11:16:54 | [32mINFO[0m | __main__:60 | train | Initializing sentiment model...
+2026-04-16 11:16:54 | [32mINFO[0m | src.sentiment_analysis:37 | initialize_sentiment_model | Initializing sentiment model: ProsusAI/finbert...
+2026-04-16 11:16:57 | [32mINFO[0m | src.sentiment_analysis:40 | initialize_sentiment_model | Sentiment model initialized successfully.
+2026-04-16 11:16:57 | [32mINFO[0m | __main__:64 | train | Fetching data for AAPL from 2015-01-01 to 2025-12-31...
+2026-04-16 11:16:57 | [32mINFO[0m | src.data_collection:108 | get_stock_data | Fetching data for AAPL from 2015-01-01 to 2025-12-31...
+2026-04-16 11:17:02 | [32mINFO[0m | src.data_collection:134 | get_stock_data | Fetched 2765 rows of data for AAPL
+2026-04-16 11:17:02 | [32mINFO[0m | __main__:68 | train | Adding technical indicators...
+2026-04-16 11:17:05 | [32mINFO[0m | __main__:72 | train | Fetching and analyzing news sentiment...
+2026-04-16 11:17:06 | [32mINFO[0m | src.sentiment_analysis:202 | get_daily_sentiment | Generated sentiment for 2 days
+2026-04-16 11:17:06 | [32mINFO[0m | __main__:76 | train | Combining stock data and sentiment...
+2026-04-16 11:17:06 | [32mINFO[0m | src.data_preprocessing:117 | merge_stock_sentiment | Dropped 49 rows with NaN values after merge
+2026-04-16 11:17:06 | [32mINFO[0m | __main__:84 | train | Preparing features for training...
+2026-04-16 11:17:06 | [32mINFO[0m | __main__:88 | train | Scaling data...
+2026-04-16 11:24:09 | [32mINFO[0m | stock_predictor:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:24:09 | [32mINFO[0m | src.data_collection:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:24:10 | [32mINFO[0m | src.feature_engineering:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:24:15 | [32mINFO[0m | src.sentiment_analysis:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:24:15 | [32mINFO[0m | src.model_utils:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:24:15 | [32mINFO[0m | src.data_preprocessing:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:24:15 | [32mINFO[0m | src.evaluation:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:24:15 | [32mINFO[0m | __main__:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:24:15 | [32mINFO[0m | __main__:56 | train | Starting training process for AAPL...
+2026-04-16 11:24:15 | [32mINFO[0m | __main__:59 | train | Initializing sentiment model...
+2026-04-16 11:24:15 | [32mINFO[0m | src.sentiment_analysis:37 | initialize_sentiment_model | Initializing sentiment model: ProsusAI/finbert...
+2026-04-16 11:24:18 | [32mINFO[0m | src.sentiment_analysis:40 | initialize_sentiment_model | Sentiment model initialized successfully.
+2026-04-16 11:24:18 | [32mINFO[0m | __main__:63 | train | Fetching data for AAPL from 2015-01-01 to 2025-12-31...
+2026-04-16 11:24:18 | [32mINFO[0m | src.data_collection:108 | get_stock_data | Fetching data for AAPL from 2015-01-01 to 2025-12-31...
+2026-04-16 11:24:19 | [32mINFO[0m | src.data_collection:134 | get_stock_data | Fetched 2765 rows of data for AAPL
+2026-04-16 11:24:19 | [32mINFO[0m | __main__:67 | train | Adding technical indicators...
+2026-04-16 11:24:20 | [32mINFO[0m | __main__:71 | train | Fetching and analyzing news sentiment...
+2026-04-16 11:24:21 | [32mINFO[0m | src.sentiment_analysis:202 | get_daily_sentiment | Generated sentiment for 2 days
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:75 | train | Combining stock data and sentiment...
+2026-04-16 11:24:21 | [32mINFO[0m | src.data_preprocessing:117 | merge_stock_sentiment | Dropped 49 rows with NaN values after merge
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:83 | train | Preparing features for training...
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:87 | train | Scaling data...
+2026-04-16 11:24:21 | [32mINFO[0m | src.model_utils:193 | save_scaler | Saving scaler to scaler_x.joblib
+2026-04-16 11:24:21 | [32mINFO[0m | src.model_utils:200 | save_scaler | Features saved to scaler_x_features.json
+2026-04-16 11:24:21 | [32mINFO[0m | src.model_utils:193 | save_scaler | Saving scaler to scaler_y.joblib
+2026-04-16 11:24:21 | [32mINFO[0m | src.model_utils:200 | save_scaler | Features saved to scaler_y_features.json
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:102 | train | Feature list saved to scaler_features.json
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:105 | train | Creating time-series dataset with time_step=60...
+2026-04-16 11:24:21 | [32mINFO[0m | src.model_utils:300 | create_dataset | Created dataset with 2656 samples
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:115 | train | Training dataset shape: X=(2656, 60, 9), y=(2656,)
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:127 | train | Train size: 2125, Validation size: 531
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:130 | train | Building LSTM model...
+2026-04-16 11:24:21 | [32mINFO[0m | src.model_utils:93 | build_model | Building LSTM model: input_shape=(60, 9), units=100, dropout=0.2, lr=0.001
+2026-04-16 11:24:21 | [32mINFO[0m | src.model_utils:111 | build_model | Model built successfully with input shape: (60, 9)
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:152 | train | Starting model training...
+2026-04-16 11:24:21 | [32mINFO[0m | __main__:153 | train | Training config: epochs=100, batch_size=64, validation_split=0.2
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:166 | train | Training complete. Evaluating model...
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:169 | train | Generating predictions for evaluation...
+2026-04-16 11:25:48 | [32mINFO[0m | src.evaluation:231 | evaluate_predictions | Calculating evaluation metrics...
+2026-04-16 11:25:48 | [32mINFO[0m | src.evaluation:244 | evaluate_predictions | Evaluation complete: MAE=7.6115, RMSE=9.8085, MAPE=3.32%, Directional Accuracy=50.57%, R²=0.8848
+2026-04-16 11:25:48 | [32mINFO[0m | src.evaluation:363 | calculate_improvement_vs_baseline | Model MAE=7.6115 vs Baseline=2.4102, Improvement=-215.80%
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:197 | train | 
+============================================================
+LSTM Stock Predictor (AAPL) - Evaluation Report
+============================================================
+
+Regression Metrics:
+  - Mean Absolute Error (MAE):     7.6115
+  - Root Mean Squared Error (RMSE): 9.8085
+  - Mean Absolute Percentage Error: 3.32%
+  - R-squared (R²):                0.8848
+
+Classification Metric:
+  - Directional Accuracy:          50.57%
+
+============================================================
+
+Improvement over Naive Baseline (MAE): -215.80%
+
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:210 | train | Evaluation results saved to stock_predictor_evaluation.csv
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:216 | train | Metrics saved to stock_predictor_metrics.json
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:222 | train | Training history saved to stock_predictor_training_history.csv
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:224 | train | Model saved to stock_predictor.keras
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:225 | train | ============================================================
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:226 | train | TRAINING COMPLETE
+2026-04-16 11:25:48 | [32mINFO[0m | __main__:227 | train | ============================================================
+2026-04-16 11:27:17 | [32mINFO[0m | stock_predictor:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:27:17 | [32mINFO[0m | src.data_collection:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:27:17 | [32mINFO[0m | src.feature_engineering:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:27:23 | [32mINFO[0m | src.sentiment_analysis:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:27:26 | [32mINFO[0m | src.model_utils:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:27:26 | [32mINFO[0m | src.data_preprocessing:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:27:26 | [32mINFO[0m | src.evaluation:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:27:26 | [32mINFO[0m | __main__:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:27:26 | [32mINFO[0m | __main__:108 | load_assets | Loading model assets...
+2026-04-16 11:27:26 | [32mINFO[0m | src.model_utils:161 | load_model | Loading model from stock_predictor.keras
+2026-04-16 11:27:26 | [32mINFO[0m | src.model_utils:225 | load_scaler | Loading scaler from scaler_x.joblib
+2026-04-16 11:27:26 | [32mINFO[0m | src.model_utils:225 | load_scaler | Loading scaler from scaler_y.joblib
+2026-04-16 11:27:26 | [32mINFO[0m | __main__:121 | load_assets | Model assets loaded successfully
+2026-04-16 11:31:25 | [32mINFO[0m | stock_predictor:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:31:25 | [32mINFO[0m | src.data_collection:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:31:25 | [32mINFO[0m | src.feature_engineering:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:31:33 | [32mINFO[0m | src.sentiment_analysis:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:31:36 | [32mINFO[0m | src.model_utils:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:31:36 | [32mINFO[0m | src.data_preprocessing:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:31:36 | [32mINFO[0m | src.evaluation:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:31:36 | [32mINFO[0m | __main__:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:31:36 | [32mINFO[0m | __main__:108 | load_assets | Loading model assets...
+2026-04-16 11:31:36 | [32mINFO[0m | src.model_utils:161 | load_model | Loading model from stock_predictor.keras
+2026-04-16 11:31:36 | [32mINFO[0m | src.model_utils:225 | load_scaler | Loading scaler from scaler_x.joblib
+2026-04-16 11:31:36 | [32mINFO[0m | src.model_utils:225 | load_scaler | Loading scaler from scaler_y.joblib
+2026-04-16 11:31:36 | [32mINFO[0m | __main__:121 | load_assets | Model assets loaded successfully
+2026-04-16 11:31:51 | [32mINFO[0m | src.data_collection:108 | get_stock_data | Fetching data for AAPL from 2025-11-07 to 2026-04-16...
+2026-04-16 11:31:53 | [32mINFO[0m | src.data_collection:134 | get_stock_data | Fetched 108 rows of data for AAPL
+2026-04-16 11:31:54 | [32mINFO[0m | __main__:139 | load_sentiment_pipeline | Loading sentiment pipeline...
+2026-04-16 11:31:54 | [32mINFO[0m | src.sentiment_analysis:37 | initialize_sentiment_model | Initializing sentiment model: ProsusAI/finbert...
+2026-04-16 11:31:56 | [32mINFO[0m | src.sentiment_analysis:40 | initialize_sentiment_model | Sentiment model initialized successfully.
+2026-04-16 11:31:57 | [32mINFO[0m | src.sentiment_analysis:202 | get_daily_sentiment | Generated sentiment for 2 days
+2026-04-16 11:31:57 | [32mINFO[0m | src.data_preprocessing:117 | merge_stock_sentiment | Dropped 49 rows with NaN values after merge
+2026-04-16 11:37:31 | [32mINFO[0m | stock_predictor:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:37:31 | [32mINFO[0m | src.data_collection:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:37:32 | [32mINFO[0m | src.feature_engineering:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:37:40 | [32mINFO[0m | src.sentiment_analysis:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:37:43 | [32mINFO[0m | src.model_utils:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:37:43 | [32mINFO[0m | src.data_preprocessing:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:37:43 | [32mINFO[0m | src.evaluation:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:37:43 | [32mINFO[0m | __main__:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:37:43 | [32mINFO[0m | __main__:108 | load_assets | Loading model assets...
+2026-04-16 11:37:43 | [32mINFO[0m | src.model_utils:161 | load_model | Loading model from stock_predictor.keras
+2026-04-16 11:37:43 | [32mINFO[0m | src.model_utils:225 | load_scaler | Loading scaler from scaler_x.joblib
+2026-04-16 11:37:43 | [32mINFO[0m | src.model_utils:225 | load_scaler | Loading scaler from scaler_y.joblib
+2026-04-16 11:37:43 | [32mINFO[0m | __main__:121 | load_assets | Model assets loaded successfully
+2026-04-16 11:37:57 | [32mINFO[0m | src.data_collection:108 | get_stock_data | Fetching data for AAPL from 2025-09-28 to 2026-04-16...
+2026-04-16 11:37:58 | [32mINFO[0m | src.data_collection:134 | get_stock_data | Fetched 137 rows of data for AAPL
+2026-04-16 11:37:58 | [32mINFO[0m | __main__:139 | load_sentiment_pipeline | Loading sentiment pipeline...
+2026-04-16 11:37:58 | [32mINFO[0m | src.sentiment_analysis:37 | initialize_sentiment_model | Initializing sentiment model: ProsusAI/finbert...
+2026-04-16 11:38:01 | [32mINFO[0m | src.sentiment_analysis:40 | initialize_sentiment_model | Sentiment model initialized successfully.
+2026-04-16 11:38:02 | [32mINFO[0m | src.sentiment_analysis:202 | get_daily_sentiment | Generated sentiment for 2 days
+2026-04-16 11:38:02 | [32mINFO[0m | src.data_preprocessing:117 | merge_stock_sentiment | Dropped 49 rows with NaN values after merge
+2026-04-16 11:42:33 | [32mINFO[0m | stock_predictor:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:42:33 | [32mINFO[0m | src.data_collection:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:42:33 | [32mINFO[0m | src.feature_engineering:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:42:41 | [32mINFO[0m | src.sentiment_analysis:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:42:44 | [32mINFO[0m | src.model_utils:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:42:44 | [32mINFO[0m | src.data_preprocessing:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:42:44 | [32mINFO[0m | src.evaluation:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:42:44 | [32mINFO[0m | __main__:112 | get_logger | Logging to file: D:\Project\Stock-Price-Predictor-By-KK\logs\stock_predictor_20260416.log
+2026-04-16 11:42:44 | [32mINFO[0m | __main__:108 | load_assets | Loading model assets...
+2026-04-16 11:42:44 | [32mINFO[0m | src.model_utils:161 | load_model | Loading model from stock_predictor.keras
+2026-04-16 11:42:45 | [32mINFO[0m | src.model_utils:225 | load_scaler | Loading scaler from scaler_x.joblib
+2026-04-16 11:42:45 | [32mINFO[0m | src.model_utils:225 | load_scaler | Loading scaler from scaler_y.joblib
+2026-04-16 11:42:45 | [32mINFO[0m | __main__:121 | load_assets | Model assets loaded successfully
+2026-04-16 11:43:06 | [32mINFO[0m | src.data_collection:108 | get_stock_data | Fetching data for AAPL from 2025-08-19 to 2026-04-16...
+2026-04-16 11:43:07 | [32mINFO[0m | src.data_collection:134 | get_stock_data | Fetched 165 rows of data for AAPL
+2026-04-16 11:43:08 | [32mINFO[0m | __main__:139 | load_sentiment_pipeline | Loading sentiment pipeline...
+2026-04-16 11:43:08 | [32mINFO[0m | src.sentiment_analysis:37 | initialize_sentiment_model | Initializing sentiment model: ProsusAI/finbert...
+2026-04-16 11:43:10 | [32mINFO[0m | src.sentiment_analysis:40 | initialize_sentiment_model | Sentiment model initialized successfully.
+2026-04-16 11:43:11 | [32mINFO[0m | src.sentiment_analysis:202 | get_daily_sentiment | Generated sentiment for 2 days
+2026-04-16 11:43:11 | [32mINFO[0m | src.data_preprocessing:117 | merge_stock_sentiment | Dropped 49 rows with NaN values after merge

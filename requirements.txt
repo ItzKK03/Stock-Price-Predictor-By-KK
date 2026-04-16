@@ -1,11 +1,27 @@
-streamlit
-tensorflow
-pandas
-numpy
-scikit-learn
-yfinance
-pandas-ta
-transformers
-torch
-plotly
-tf-keras
+# Web Framework
+streamlit>=1.31.0
+
+# Deep Learning
+tensorflow>=2.16.0
+torch>=2.2.0
+transformers>=4.38.0
+
+# Data Analysis
+pandas>=2.2.0
+numpy>=1.26.4
+scikit-learn>=1.4.1
+pandas-ta>=0.3.14b
+
+# Data Sources
+yfinance>=0.2.36
+
+# Visualization
+plotly>=5.19.0
+
+# Environment Variables
+python-dotenv>=1.0.1
+
+# Testing (optional - install with: pip install -r requirements.txt --extra-index-url test)
+pytest>=8.0.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.23.3

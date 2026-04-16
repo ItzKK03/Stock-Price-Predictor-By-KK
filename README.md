@@ -1,4 +1,7 @@
-📈 AI Stock Price Predictor
+# 📈 AI Stock Price Predictor
+
+[![Tests](https://github.com/yourusername/Stock-Price-Predictor-By-KK/actions/workflows/test.yml/badge.svg)](https://github.com/yourusername/Stock-Price-Predictor-By-KK/actions/workflows/test.yml)
+[![Codecov](https://codecov.io/gh/yourusername/Stock-Price-Predictor-By-KK/branch/main/graph/badge.svg)](https://codecov.io/gh/yourusername/Stock-Price-Predictor-By-KK)
 
 A comprehensive, AI-powered web application that forecasts stock closing prices using a sophisticated hybrid model. This project combines Long Short-Term Memory (LSTM) deep learning for time-series analysis with Natural Language Processing (NLP) for market sentiment, providing a more holistic prediction.
 
